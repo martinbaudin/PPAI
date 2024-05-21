@@ -73,7 +73,6 @@
             this.Controls.Add(this.label1);
             this.Name = "ImportarActualizacionVino";
             this.Text = "Importar Actualizacion Vino";
-            this.Load += new System.EventHandler(this.ImportarActualizacionVino_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

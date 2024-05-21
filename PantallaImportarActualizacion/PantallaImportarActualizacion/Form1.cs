@@ -23,7 +23,8 @@ namespace PantallaImportarActualizacion
             ImportarActualizacionVino nuevaVentana = new ImportarActualizacionVino();
 
             // Mostrar la nueva ventana
-            nuevaVentana.hablitarPantalla()
+            nuevaVentana.habilitarPantalla();
+
         }
     }
 }
