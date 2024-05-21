@@ -11,9 +11,22 @@ namespace PantallaImportarActualizacion.Entidades
         private string nombre;
         private string descripcion;
 
-        public TipoUva()
+        public TipoUva(string nombreUva, string descripcionUva)
         {
+            nombre = nombreUva;
+            descripcion = descripcionUva;
+        }
 
+        public string nombreUva
+        {
+            get => nombre;
+            set => nombre = value;
+        }
+
+        public string descripcionUva
+        {
+            get => descripcion;
+            set => descripcion = value;
         }
     }
 }

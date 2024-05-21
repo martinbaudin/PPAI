@@ -8,5 +8,9 @@ namespace PantallaImportarActualizacion.Entidades
 {
     class GestorImportadorBodega
     {
+        private List<Bodega> bodegas;
+        private List<Vino> vinos;
+        private List<TipoUva> tiposUva;
+
     }
 }
