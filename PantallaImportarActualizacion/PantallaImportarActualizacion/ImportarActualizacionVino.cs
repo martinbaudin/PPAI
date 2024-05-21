@@ -16,5 +16,16 @@ namespace PantallaImportarActualizacion
         {
             InitializeComponent();
         }
+
+        private void ImportarActualizacionVino_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void habilitarPantalla()
+        {
+            this.Show();
+
+        }
     }
 }

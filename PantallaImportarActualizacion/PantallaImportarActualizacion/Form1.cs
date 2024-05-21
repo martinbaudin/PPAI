@@ -23,8 +23,7 @@ namespace PantallaImportarActualizacion
             ImportarActualizacionVino nuevaVentana = new ImportarActualizacionVino();
 
             // Mostrar la nueva ventana
-            nuevaVentana.Show();
-            this.Hide();
+            nuevaVentana.hablitarPantalla()
         }
     }
 }
