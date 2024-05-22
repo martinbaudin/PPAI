@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PantallaImportarActualizacion.Entidades
 {
-    class Vino
+    public class Vino
     {
         private string añada;
         private string imagenEtiqueta;

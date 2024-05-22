@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PantallaImportarActualizacion.Entidades
 {
-    class Siguiendo
+    public class Siguiendo
     {
         private DateTime fechaFin;
         private DateTime fechaInicio;

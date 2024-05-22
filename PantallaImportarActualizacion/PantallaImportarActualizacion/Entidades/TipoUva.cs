@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PantallaImportarActualizacion.Entidades
 {
-    class TipoUva
+    public class TipoUva
     {
         private string nombre;
         private string descripcion;

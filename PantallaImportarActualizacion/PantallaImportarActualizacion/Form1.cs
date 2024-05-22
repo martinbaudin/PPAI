@@ -17,14 +17,13 @@ namespace PantallaImportarActualizacion
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void opcionImportarActualizacionVino_Click(object sender, EventArgs e)
         {
             // Crear una nueva instancia del formulario que deseas abrir
             ImportarActualizacionVino nuevaVentana = new ImportarActualizacionVino();
 
             // Mostrar la nueva ventana
-            nuevaVentana.Show();
-            this.Hide();
+            nuevaVentana.habilitarPantalla();
         }
     }
 }

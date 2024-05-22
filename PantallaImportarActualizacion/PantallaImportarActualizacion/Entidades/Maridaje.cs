@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PantallaImportarActualizacion.Entidades
 {
-    class Maridaje
+    public class Maridaje
     {
         private string descripcion;
         private string nombre;

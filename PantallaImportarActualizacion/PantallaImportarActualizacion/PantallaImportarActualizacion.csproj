@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\BodegaFactory.cs" />
+    <Compile Include="Datos\MaridajeFactory.cs" />
+    <Compile Include="Datos\VinoFactoy.cs" />
     <Compile Include="Entidades\Bodega.cs" />
     <Compile Include="Entidades\Enofilo.cs" />
     <Compile Include="Entidades\GestorImportadorBodega.cs" />
@@ -82,6 +85,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\PantallaImportarActualizacion.Entidades.Bodega.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,6 +98,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

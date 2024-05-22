@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnSeleccionar = new System.Windows.Forms.Button();
+            this.cmbBodegas = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -42,30 +42,31 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Seleccionar bodega a actualizar";
             // 
-            // button1
+            // btnSeleccionar
             // 
-            this.button1.Location = new System.Drawing.Point(108, 175);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Seleccionar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSeleccionar.Location = new System.Drawing.Point(108, 175);
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.Size = new System.Drawing.Size(75, 23);
+            this.btnSeleccionar.TabIndex = 2;
+            this.btnSeleccionar.Text = "Seleccionar";
+            this.btnSeleccionar.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cmbBodegas
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(85, 148);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
+            this.cmbBodegas.FormattingEnabled = true;
+            this.cmbBodegas.Location = new System.Drawing.Point(85, 148);
+            this.cmbBodegas.Name = "cmbBodegas";
+            this.cmbBodegas.Size = new System.Drawing.Size(121, 21);
+            this.cmbBodegas.TabIndex = 3;
+            this.cmbBodegas.SelectedIndexChanged += new System.EventHandler(this.cmbBodegas_SelectedIndexChanged);
             // 
             // ImportarActualizacionVino
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(328, 458);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.cmbBodegas);
+            this.Controls.Add(this.btnSeleccionar);
             this.Controls.Add(this.label1);
             this.Name = "ImportarActualizacionVino";
             this.Text = "Importar Actualizacion Vino";
@@ -76,7 +77,7 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnSeleccionar;
+        private System.Windows.Forms.ComboBox cmbBodegas;
     }
 }

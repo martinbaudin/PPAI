@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.opcionImportarActualizacionVino = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // opcionImportarActualizacionVino
             // 
-            this.button1.Location = new System.Drawing.Point(35, 166);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(227, 63);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Importar actualizacion de vinos de bodega";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.opcionImportarActualizacionVino.Location = new System.Drawing.Point(35, 166);
+            this.opcionImportarActualizacionVino.Name = "opcionImportarActualizacionVino";
+            this.opcionImportarActualizacionVino.Size = new System.Drawing.Size(227, 63);
+            this.opcionImportarActualizacionVino.TabIndex = 0;
+            this.opcionImportarActualizacionVino.Text = "Importar actualizacion de vinos de bodega";
+            this.opcionImportarActualizacionVino.UseVisualStyleBackColor = true;
+            this.opcionImportarActualizacionVino.Click += new System.EventHandler(this.opcionImportarActualizacionVino_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(300, 446);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.opcionImportarActualizacionVino);
             this.Name = "Form1";
             this.Text = "Administracion Vinos";
             this.ResumeLayout(false);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button opcionImportarActualizacionVino;
     }
 }
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PantallaImportarActualizacion.Entidades
 {
-    class Enofilo
+    public class Enofilo
     {
         private string apellido;
         private string nombre;

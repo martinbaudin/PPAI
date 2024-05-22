@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PantallaImportarActualizacion.Entidades
 {
-    class Bodega
+    public class Bodega
     {
         private string descripcion;
         private string historia;
@@ -52,6 +52,15 @@ namespace PantallaImportarActualizacion.Entidades
         {
             get => coordenadasUbicacion;
             set => coordenadasUbicacion = value;
+        }
+
+        public List<Bodega> bodegas { get; set; }
+
+        //Metodos
+
+        public bool estaParaActualizarNovedadesVino()
+        {
+            return periodoActualizacion;
         }
     }
 }
